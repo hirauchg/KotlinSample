@@ -22,4 +22,8 @@
 
     <!-- back -->
     <string name="back_title">ActionBarに戻るボタンを実装する</string>
+
+    <!-- oss -->
+    <string name="oss_title">com.google.gms:oss-licensesで、ライセンス情報を表示する</string>
+    <string name="oss_button">ライセンス情報を表示</string>
 </resources>
