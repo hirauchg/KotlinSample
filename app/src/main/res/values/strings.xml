@@ -19,4 +19,7 @@
     <string name="menu_menu_1">メニュー１</string>
     <string name="menu_menu_2">メニュー２</string>
     <string name="menu_menu_3">メニュー３</string>
+
+    <!-- back -->
+    <string name="back_title">ActionBarに戻るボタンを実装する</string>
 </resources>

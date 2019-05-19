@@ -23,7 +23,8 @@ class MainActivity : AppCompatActivity() {
     private fun setUpView() {
         val itemList = listOf(
             getString(R.string.anko_title),
-            getString(R.string.menu_title)
+            getString(R.string.menu_title),
+            getString(R.string.back_title)
         )
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemList)
 
@@ -31,7 +32,8 @@ class MainActivity : AppCompatActivity() {
         listView.setOnItemClickListener { _, _, position, _ ->
             when (position) {
                 0 -> startActivity<com.example.kotlinsample.anko.SampleActivity>()
-                1 -> startActivity<SampleActivity>()
+                1 -> startActivity<com.example.kotlinsample.menu.SampleActivity>()
+                2 -> startActivity<com.example.kotlinsample.back.SampleActivity>()
             }
         }
 
