@@ -6,6 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.ArrayAdapter
 import com.example.kotlinsample.anko.AnkoActivity
+import com.example.kotlinsample.menu.MenuActivity
 import org.jetbrains.anko.setContentView
 import org.jetbrains.anko.startActivity
 
@@ -23,7 +24,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun setUpView() {
         val itemList = listOf(
-            getString(R.string.anko_title)
+            getString(R.string.anko_title),
+            getString(R.string.menu_title)
         )
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemList)
 
@@ -31,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         listView.setOnItemClickListener { _, _, position, _ ->
             when (position) {
                 0 -> startActivity<AnkoActivity>()
+                1 -> startActivity<MenuActivity>()
             }
         }
 

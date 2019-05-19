@@ -13,4 +13,10 @@
 
     <!-- anko -->
     <string name="anko_title">Ankoでレイアウトを実装する</string>
+
+    <!-- menu -->
+    <string name="menu_title">ActionBarにメニューを実装する</string>
+    <string name="menu_menu_1">メニュー１</string>
+    <string name="menu_menu_2">メニュー２</string>
+    <string name="menu_menu_3">メニュー３</string>
 </resources>
