@@ -1,5 +1,15 @@
 <resources>
+
+    <!-- main -->
     <string name="app_name">KotlinSample</string>
+    <string name="main_menu_app_info">アプリ情報</string>
+
+    <!-- app_info -->
+    <string name="app_info_title">アプリ情報</string>
+    <string name="app_info_site">解説サイト</string>
+    <string name="app_info_privacy">プライバシーポリシー</string>
+    <string name="app_info_oss">オープンソースライセンス</string>
+    <string name="app_info_version">アプリバージョン</string>
 
     <!-- anko -->
     <string name="anko_title">Ankoでレイアウトを実装する</string>
