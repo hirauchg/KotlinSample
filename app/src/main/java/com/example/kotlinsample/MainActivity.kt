@@ -25,7 +25,8 @@ class MainActivity : AppCompatActivity() {
             getString(R.string.anko_title),
             getString(R.string.menu_title),
             getString(R.string.back_title),
-            getString(R.string.oss_title)
+            getString(R.string.oss_title),
+            getString(R.string.alert_title)
         )
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemList)
 
@@ -36,6 +37,7 @@ class MainActivity : AppCompatActivity() {
                 1 -> startActivity<com.example.kotlinsample.menu.SampleActivity>()
                 2 -> startActivity<com.example.kotlinsample.back.SampleActivity>()
                 3 -> startActivity<com.example.kotlinsample.oss.SampleActivity>()
+                4 -> startActivity<com.example.kotlinsample.alert.SampleActivity>()
             }
         }
 

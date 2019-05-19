@@ -26,4 +26,11 @@
     <!-- oss -->
     <string name="oss_title">com.google.gms:oss-licensesで、ライセンス情報を表示する</string>
     <string name="oss_button">ライセンス情報を表示</string>
+
+    <!-- alert -->
+    <string name="alert_title">アラートダイアログを表示する</string>
+    <string name="alert_button_1">タイトルとメッセージの表示</string>
+    <string name="alert_button_2">OKボタン、キャンセルボタンの表示</string>
+    <string name="alert_button_3">OKボタン、キャンセルボタンの表示 - その２</string>
+    <string name="alert_button_4">ダイアログのカスタマイズ</string>
 </resources>
