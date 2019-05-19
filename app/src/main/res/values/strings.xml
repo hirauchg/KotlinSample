@@ -39,4 +39,7 @@
     <string name="sqlite_button_insert">Insert</string>
     <string name="sqlite_button_update">Update</string>
     <string name="sqlite_button_delete">Delete</string>
+
+    <!-- recyclerview -->
+    <string name="recyclerview_title">RecyclerViewでリスト表示を実装する</string>
 </resources>

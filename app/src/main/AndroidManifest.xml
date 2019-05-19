@@ -38,6 +38,9 @@
         <activity android:name=".sqlite.SampleActivity"
                   android:label="@string/sqlite_title"
                   android:screenOrientation="portrait"/>
+        <activity android:name=".recyclerview.SampleActivity"
+                  android:label="@string/recyclerview_title"
+                  android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
