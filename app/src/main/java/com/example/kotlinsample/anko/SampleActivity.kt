@@ -4,9 +4,9 @@ import android.os.Bundle
 import com.example.kotlinsample.BaseActivity
 import org.jetbrains.anko.setContentView
 
-class AnkoActivity : BaseActivity() {
+class SampleActivity : BaseActivity() {
 
-    private val mUI = AnkoActivityUI()
+    private val mUI = SampleActivityUI()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

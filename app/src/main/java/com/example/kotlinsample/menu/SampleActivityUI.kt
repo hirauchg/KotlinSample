@@ -1,14 +1,14 @@
-package com.example.kotlinsample.anko
+package com.example.kotlinsample.menu
 
 import android.widget.TextView
 import com.example.kotlinsample.R
 import org.jetbrains.anko.*
 
-class AnkoActivityUI : AnkoComponent<AnkoActivity> {
+class SampleActivityUI : AnkoComponent<SampleActivity> {
 
-    override fun createView(ui: AnkoContext<AnkoActivity>) = with(ui) {
+    override fun createView(ui: AnkoContext<SampleActivity>) = with(ui) {
         verticalLayout {
-            textView(R.string.anko_title) {
+            textView(R.string.menu_title) {
                 textSize = 20F
                 textAlignment = TextView.TEXT_ALIGNMENT_CENTER
             }.lparams(width = matchParent) {

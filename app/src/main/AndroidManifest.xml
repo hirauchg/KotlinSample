@@ -17,13 +17,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".anko.AnkoActivity"
+        <activity android:name=".anko.SampleActivity"
                   android:label="@string/anko_title"
                   android:screenOrientation="portrait"/>
         <activity android:name=".AppInfoActivity"
                   android:label="@string/app_info_title"
                   android:screenOrientation="portrait"/>
-        <activity android:name=".menu.MenuActivity"
+        <activity android:name=".menu.SampleActivity"
                   android:label="@string/menu_title"
                   android:screenOrientation="portrait"/>
     </application>

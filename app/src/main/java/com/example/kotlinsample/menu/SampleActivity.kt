@@ -8,11 +8,11 @@ import com.example.kotlinsample.R
 import org.jetbrains.anko.setContentView
 import org.jetbrains.anko.toast
 
-class MenuActivity : BaseActivity() {
+class SampleActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        MenuActivityUI().setContentView(this)
+        SampleActivityUI().setContentView(this)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
