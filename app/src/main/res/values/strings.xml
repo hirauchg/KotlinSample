@@ -33,4 +33,10 @@
     <string name="alert_button_2">OKボタン、キャンセルボタンの表示</string>
     <string name="alert_button_3">OKボタン、キャンセルボタンの表示 - その２</string>
     <string name="alert_button_4">ダイアログのカスタマイズ</string>
+
+    <!-- sqlite -->
+    <string name="sqlite_title">AnkoでSQLiteデータベースを実装する</string>
+    <string name="sqlite_button_insert">Insert</string>
+    <string name="sqlite_button_update">Update</string>
+    <string name="sqlite_button_delete">Delete</string>
 </resources>
