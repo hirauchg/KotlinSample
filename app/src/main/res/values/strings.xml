@@ -45,4 +45,7 @@
 
     <!-- recyclerview -->
     <string name="viewpager_title">ViewPagerとTabLayoutでスライド画面を実装する</string>
+
+    <!-- menu_change -->
+    <string name="menu_change_title">メニューを動的に変更する</string>
 </resources>
