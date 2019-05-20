@@ -28,7 +28,8 @@ class MainActivity : AppCompatActivity() {
             getString(R.string.oss_title),
             getString(R.string.alert_title),
             getString(R.string.sqlite_title),
-            getString(R.string.recyclerview_title)
+            getString(R.string.recyclerview_title),
+            getString(R.string.viewpager_title)
         )
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemList)
 
@@ -42,6 +43,7 @@ class MainActivity : AppCompatActivity() {
                 4 -> startActivity<com.example.kotlinsample.alert.SampleActivity>()
                 5 -> startActivity<com.example.kotlinsample.sqlite.SampleActivity>()
                 6 -> startActivity<com.example.kotlinsample.recyclerview.SampleActivity>()
+                7 -> startActivity<com.example.kotlinsample.viewpager.SampleActivity>()
             }
         }
 

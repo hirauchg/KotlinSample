@@ -42,4 +42,7 @@
 
     <!-- recyclerview -->
     <string name="recyclerview_title">RecyclerViewでリスト表示を実装する</string>
+
+    <!-- recyclerview -->
+    <string name="viewpager_title">ViewPagerとTabLayoutでスライド画面を実装する</string>
 </resources>
