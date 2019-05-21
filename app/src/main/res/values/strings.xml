@@ -48,4 +48,7 @@
 
     <!-- menu_change -->
     <string name="menu_change_title">メニューを動的に変更する</string>
+
+    <!-- alpha_animation -->
+    <string name="alpha_animation_title">AlphaAnimationで、fadeIn - fadeOutを実装する</string>
 </resources>
