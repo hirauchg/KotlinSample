@@ -18,7 +18,6 @@ class SampleActivity : BaseActivity() {
             invalidateOptionsMenu()
         }
 
-        // 追加
         mUI.mMenuPartChangeBtn.setOnCheckedChangeListener { _, _ ->
             invalidateOptionsMenu()
         }
@@ -31,7 +30,6 @@ class SampleActivity : BaseActivity() {
             menuInflater.inflate(R.menu.menu_change_2, menu)
         }
 
-        // 追加
         menu?.findItem(R.id.menu_change_1_item_1)?.isVisible = mUI.mMenuPartChangeBtn.isChecked
         menu?.findItem(R.id.menu_change_2_item_1)?.isVisible = mUI.mMenuPartChangeBtn.isChecked
         return super.onCreateOptionsMenu(menu)
