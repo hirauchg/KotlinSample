@@ -51,4 +51,7 @@
 
     <!-- alpha_animation -->
     <string name="alpha_animation_title">AlphaAnimationで、fadeIn - fadeOutを実装する</string>
+
+    <!-- textview -->
+    <string name="textview_title">TextViewで文字を表示する</string>
 </resources>
