@@ -54,4 +54,7 @@
 
     <!-- textview -->
     <string name="textview_title">TextViewで文字を表示する</string>
+
+    <!-- edittext -->
+    <string name="edittext_title">EditTextで文字の入力欄を実装する</string>
 </resources>

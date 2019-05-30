@@ -32,7 +32,8 @@ class MainActivity : AppCompatActivity() {
             getString(R.string.viewpager_title),
             getString(R.string.menu_change_title),
             getString(R.string.alpha_animation_title),
-            getString(R.string.textview_title)
+            getString(R.string.textview_title),
+            getString(R.string.edittext_title)
         )
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemList)
 
@@ -50,6 +51,7 @@ class MainActivity : AppCompatActivity() {
                 8 -> startActivity<com.example.kotlinsample.menu_change.SampleActivity>()
                 9 -> startActivity<com.example.kotlinsample.alpha_animation.SampleActivity>()
                 10 -> startActivity<com.example.kotlinsample.textview.SampleActivity>()
+                11 -> startActivity<com.example.kotlinsample.edittext.SampleActivity>()
             }
         }
 
