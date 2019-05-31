@@ -33,7 +33,8 @@ class MainActivity : AppCompatActivity() {
             getString(R.string.menu_change_title),
             getString(R.string.alpha_animation_title),
             getString(R.string.textview_title),
-            getString(R.string.edittext_title)
+            getString(R.string.edittext_title),
+            getString(R.string.imageview_title)
         )
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemList)
 
@@ -52,6 +53,7 @@ class MainActivity : AppCompatActivity() {
                 9 -> startActivity<com.example.kotlinsample.alpha_animation.SampleActivity>()
                 10 -> startActivity<com.example.kotlinsample.textview.SampleActivity>()
                 11 -> startActivity<com.example.kotlinsample.edittext.SampleActivity>()
+                12 -> startActivity<com.example.kotlinsample.imageview.SampleActivity>()
             }
         }
 

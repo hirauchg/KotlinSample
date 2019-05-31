@@ -57,4 +57,7 @@
 
     <!-- edittext -->
     <string name="edittext_title">EditTextで文字の入力欄を実装する</string>
+
+    <!-- imageview -->
+    <string name="imageview_title">ImageViewで画像を表示する</string>
 </resources>
