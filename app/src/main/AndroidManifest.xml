@@ -62,6 +62,9 @@
         <activity android:name=".button.SampleActivity"
                   android:label="@string/button_title"
                   android:screenOrientation="portrait"/>
+        <activity android:name="._switch.SampleActivity"
+                  android:label="@string/switch_title"
+                  android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

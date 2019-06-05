@@ -63,4 +63,7 @@
 
     <!-- button -->
     <string name="button_title">Buttonでボタンを実装する</string>
+
+    <!-- switch -->
+    <string name="switch_title">SwitchでON/OFFを切り替えるスイッチを実装する</string>
 </resources>

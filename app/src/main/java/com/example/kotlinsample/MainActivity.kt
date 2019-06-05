@@ -35,7 +35,8 @@ class MainActivity : AppCompatActivity() {
             getString(R.string.textview_title),
             getString(R.string.edittext_title),
             getString(R.string.imageview_title),
-            getString(R.string.button_title)
+            getString(R.string.button_title),
+            getString(R.string.switch_title)
         )
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemList)
 
@@ -56,6 +57,7 @@ class MainActivity : AppCompatActivity() {
                 11 -> startActivity<com.example.kotlinsample.edittext.SampleActivity>()
                 12 -> startActivity<com.example.kotlinsample.imageview.SampleActivity>()
                 13 -> startActivity<com.example.kotlinsample.button.SampleActivity>()
+                14 -> startActivity<com.example.kotlinsample._switch.SampleActivity>()
             }
         }
 
