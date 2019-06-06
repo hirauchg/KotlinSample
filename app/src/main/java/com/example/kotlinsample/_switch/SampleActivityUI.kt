@@ -10,7 +10,7 @@ class SampleActivityUI : AnkoComponent<SampleActivity> {
 
     override fun createView(ui: AnkoContext<SampleActivity>): View = with(ui) {
         verticalLayout {
-            id = R.id.Container
+            id = R.id.container
 
             /* Ankoでのレイアウト実装 */
 //            val switch = switch {

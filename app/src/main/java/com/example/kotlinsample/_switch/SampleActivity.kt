@@ -23,7 +23,7 @@ class SampleActivity : BaseActivity() {
         SampleActivityUI().setContentView(this)
 
         /*** kotlin + Ankoでの実装 ***/
-        val parent = find<LinearLayout>(R.id.Container)
+        val parent = find<LinearLayout>(R.id.container)
 
         val switch = Switch(this)
         switch.onCheckedChange { buttonView, isChecked ->

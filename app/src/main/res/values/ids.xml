@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="ViewPager" type="id"/>
-    <item name="Container" type="id"/>
+    <item name="viewpager" type="id"/>
+    <item name="container" type="id"/>
 
     <!-- radiobutton -->
     <item name="radiobutton_1" type="id"/>

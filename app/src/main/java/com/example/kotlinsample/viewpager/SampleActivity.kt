@@ -14,7 +14,7 @@ class SampleActivity : BaseActivity() {
         ui.setContentView(this)
 
         val adapter = SampleViewPagerAdapter(supportFragmentManager)
-        val viewPager = findViewById<ViewPager>(R.id.ViewPager)
+        val viewPager = findViewById<ViewPager>(R.id.viewpager)
         viewPager.adapter = adapter
         ui.mTabLayout.setupWithViewPager(viewPager)
     }

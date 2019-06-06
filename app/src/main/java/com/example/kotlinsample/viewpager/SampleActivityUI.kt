@@ -25,7 +25,7 @@ class SampleActivityUI : AnkoComponent<SampleActivity> {
             }
 
             viewPager {
-                id = R.id.ViewPager
+                id = R.id.viewpager
             }
         }
     }
