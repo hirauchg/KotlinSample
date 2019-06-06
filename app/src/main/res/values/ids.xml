@@ -2,4 +2,9 @@
 <resources>
     <item name="ViewPager" type="id"/>
     <item name="Container" type="id"/>
+
+    <!-- radiobutton -->
+    <item name="radiobutton_1" type="id"/>
+    <item name="radiobutton_2" type="id"/>
+    <item name="radiobutton_3" type="id"/>
 </resources>

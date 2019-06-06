@@ -66,4 +66,7 @@
 
     <!-- switch -->
     <string name="switch_title">SwitchでON/OFFを切り替えるスイッチを実装する</string>
+
+    <!-- radiobutton -->
+    <string name="radiobutton_title">RadioButtonでラジオボタンを実装する</string>
 </resources>
