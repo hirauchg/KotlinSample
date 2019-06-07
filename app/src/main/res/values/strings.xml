@@ -69,4 +69,7 @@
 
     <!-- radiobutton -->
     <string name="radiobutton_title">RadioButtonでラジオボタンを実装する</string>
+
+    <!-- mediarecorder -->
+    <string name="mediarecorder_title">MediaRecorderとMediaPlayerで録音再生機能を実装する</string>
 </resources>
