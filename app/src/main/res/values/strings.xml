@@ -72,4 +72,7 @@
 
     <!-- mediarecorder -->
     <string name="mediarecorder_title">MediaRecorderとMediaPlayerで録音再生機能を実装する</string>
+
+    <!-- checkbox -->
+    <string name="checkbox_title">CheckBoxでチェックボックスを実装する</string>
 </resources>
