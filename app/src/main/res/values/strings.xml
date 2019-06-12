@@ -75,4 +75,7 @@
 
     <!-- checkbox -->
     <string name="checkbox_title">CheckBoxでチェックボックスを実装する</string>
+
+    <!-- listview -->
+    <string name="listview_title">ListViewでテキストのリスト表示を実装する</string>
 </resources>
