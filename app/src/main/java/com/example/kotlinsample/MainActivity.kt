@@ -40,7 +40,8 @@ class MainActivity : AppCompatActivity() {
             getString(R.string.radiobutton_title),
             getString(R.string.mediarecorder_title),
             getString(R.string.checkbox_title),
-            getString(R.string.listview_title)
+            getString(R.string.listview_title),
+            getString(R.string.seekbar_title)
         )
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, itemList)
 
@@ -66,6 +67,7 @@ class MainActivity : AppCompatActivity() {
                 16 -> startActivity<com.example.kotlinsample.mediarecorder.SampleActivity>()
                 17 -> startActivity<com.example.kotlinsample.checkbox.SampleActivity>()
                 18 -> startActivity<com.example.kotlinsample.listview.SampleActivity>()
+                19 -> startActivity<com.example.kotlinsample.seekbar.SampleActivity>()
             }
         }
 
